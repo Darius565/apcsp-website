@@ -1,15 +1,61 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+    
+}
 
+li a {
+    display: bl2ck;
+    width: 300px;
+    background-color: #dddddd;
+}
 h1 {
   margin-right: 300px;
   font-size:75px;
-  color: LightGray;
-} 
+}
+
+boarder {
+  height: 50px;
+  width: 50px;
+}
 p {
-  color: LightGray;
+  position: top right;
+  font-size: 30px;
+  margin-left: 200px;
+}
+ul {
+  font-size: 20px;
+
 }
 .aboutme {
-  text-align: left;
+  width: 600px;
+   height: 300px;
+   border: 1px solid blue;
+   outline: rgba(11, 26, 238, 0.849) solid 10px;
+   margin-left: 850px;
+    margin-top:-300px;
+    float: left;
+    word-wrap: break-word;
 }
+
+.loopd {
+height: 400px;
+width: 400px; 
+float: left;
+margin-left: 300px;
+margin-top: 50px;
+}
+
+#aboutme1 {
+  text-align: center;
+  margin-left:850px;
+  margin-bottom:100px
+}
+
+
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -19,13 +65,8 @@ ul {
     position: fixed;
     height: 100%;
     overflow: auto;
-} 
-nav {
-  float:left;
-  width:30%;
-  height:40%;
-  background: #ccc;
-  padding: 20px;
+}
+
 li a {
     display: block;
     color: #000;
@@ -42,7 +83,14 @@ li a:hover:not(.active) {
     background-color: #555;
     color: white;
 }
+
+
 boarder {
    height: 50px;
    width: 50px;
+}
+
+h1 {
+  margin-right: 300px;
+  font-size:75px;
 }
